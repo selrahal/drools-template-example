@@ -8,4 +8,4 @@ mvn clean test
 
 ##Requirements
 
-This project has a dependency on version `6.3.0.Final-redhat-5` of Drools which is provided as BxMS v6.2. You can download the maven repository at the [https://access.redhat.com](Red Hat Customer Portal)
+This project has a dependency on version `6.3.0.Final-redhat-5` of Drools which is provided as BxMS v6.2. You can download the maven repository at the [Red Hat Customer Portal](https://access.redhat.com)
