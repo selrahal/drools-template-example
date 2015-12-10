@@ -1,0 +1,7 @@
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <kbase name="loanKieBase">
+        <ruleTemplate dtable="com/rhc/drools/LoanData.xls"
+                      template="com/rhc/drools/loan-template.drt"
+                      row="2" col="1"/>
+    </kbase>
+</kmodule>

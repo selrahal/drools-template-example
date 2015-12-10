@@ -1,0 +1,20 @@
+template header
+identifier
+maxAmount
+
+package com.rhc.drools;
+
+import com.rhc.drools.model.Loan;
+
+template "loans"
+
+rule "Set max amount from identifier @{row.rowNumber}"
+when
+	loan : Loan(identifier == "@{identifier}", maxAmount != @{maxAmount})
+then
+	modify (loan) {
+		setMaxAmount(@{maxAmount})
+	}
+end
+
+end template
